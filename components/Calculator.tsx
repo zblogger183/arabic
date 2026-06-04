@@ -400,7 +400,7 @@ export default function Calculator() {
                 ri === 4 ? "grid-cols-4" : "grid-cols-4"
               }`}
             >
-              {row.map((btn, bi) => (
+              {row.map((btn) => (
                 <button
                   key={btn}
                   onClick={() => handleButton(btn)}
