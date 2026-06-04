@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     "استخدم آلة حاسبة اون لاين مجانًا. حاسبة علمية متطورة تعمل على الجوال والكمبيوتر بدون تحميل. حاسبة كاسيو، حاسبة العملات، وأكثر. ابدأ الآن ←",
 };
 
+export const dynamic = "force-static";
+export const revalidate = false;
+
 // ─── Section 3 data ──────────────────────────────────────────────────────────
 const mostUsedCalcs = [
   {
